@@ -8,6 +8,8 @@ App::uses('AppController', 'Controller');
  */
 class AgentsController extends AppController {
 
+	public $helpers = array('Js');
+
 /**
  * Components
  *
@@ -55,6 +57,10 @@ class AgentsController extends AppController {
 				$this->Session->setFlash(__('The agent could not be saved. Please, try again.'), array ('class' => 'alert alert-danger'));
 			}
 		}
+
+		$categories = $this->Agent->Subcategory->Category->find('list');
+		$subcategories = array('choisir categorie');
+		$this->set(compact('categories', 'subcategories'));
 	}
 
 /**
@@ -79,6 +85,9 @@ class AgentsController extends AppController {
 			$options = array('conditions' => array('Agent.' . $this->Agent->primaryKey => $id));
 			$this->request->data = $this->Agent->find('first', $options);
 		}
+
+		$subcategories = $this->Agent->Subcategory->find('list');
+        $this->set(compact('subcategories'));
 	}
 
 /**

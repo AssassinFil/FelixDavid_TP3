@@ -110,6 +110,14 @@ class UsersController extends AppController {
 				unset($this->request->data['User']['password']);
 			}
 
+			 $extension = strtolower(pathinfo($this->request->data['User']['avatar_file']['name'],
+                         PATHINFO_EXTENSION));
+                        if(!empty($this->request->data['User']['avatar_file']['tmp_name']) && in_array($extension, array('jpg', 'jpeg', 'png', 'gif'))
+                                ){
+                                        move_uploaded_file($this->request->data['User']['avatar_file']['tmp_name'], IMAGES . 'avatar' . DS . $this->User->id . '.' . $extension
+                                        );
+                                        $this->User->saveField('avatar', $extension);
+
 			if ($this->User->save($this->request->data)) {
 				# Store log
 				CakeLog::info('The user '.AuthComponent::user('username').' (ID: '.AuthComponent::user('id').') edited user (ID: '.$this->User->id.')','users');
@@ -119,6 +127,11 @@ class UsersController extends AppController {
 			} else {
 				$this->Session->setFlash(__('The user could not be saved. Please, try again.'), 'flash_fail');
 			}
+		}elseif (!empty($this->request->data['User']['avatar_file']['tmp_name'])) {
+                       
+                $this->Session->setFlash(__('Ce type de fichier nest pas valide.'), 'flash_fail');
+                       
+        }
 		} else {
 			$this->request->data = $this->User->read(null, $id);
 			unset($this->request->data['User']['password']);

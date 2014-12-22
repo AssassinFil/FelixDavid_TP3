@@ -8,6 +8,8 @@
 		echo $this->Form->input('datenaissance');
 		echo $this->Form->input('email');
 		echo $this->Form->input('detailmasque');
+		echo $this->Form->input('category_id');
+        echo $this->Form->input('subcategory_id');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
