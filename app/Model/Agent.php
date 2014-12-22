@@ -63,4 +63,13 @@ class Agent extends AppModel {
 			),
 		),
 	);
+	public $belongsTo = array(
+		'Subcategory' => array(
+			'className' => 'Subcategory',
+			'foreignKey' => 'subcategory_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		)
+	);
 }

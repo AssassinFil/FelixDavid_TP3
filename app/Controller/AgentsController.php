@@ -59,8 +59,9 @@ class AgentsController extends AppController {
 		}
 
 		$categories = $this->Agent->Subcategory->Category->find('list');
-		$subcategories = array('choisir categorie');
+		$subcategories = $this->Agent->Subcategory->find('list');
 		$this->set(compact('categories', 'subcategories'));
+
 	}
 
 /**

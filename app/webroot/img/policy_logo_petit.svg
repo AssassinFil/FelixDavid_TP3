@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<svg width="60" height="63" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>Lemon SVG themeiconlemon_theme_iconmimetypesiconshashcomputerthemeJose HeviaJose HeviaJose Heviaimage/svg+xmlen</metadata>
+ <defs>
+  <linearGradient id="linearGradient842">
+   <stop id="stop843" offset="0" stop-color="#0c6700"/>
+   <stop id="stop844" offset="1" stop-color="#a7daaf"/>
+  </linearGradient>
+  <linearGradient id="linearGradient53">
+   <stop id="stop54" offset="0" stop-color="#f0ff00"/>
+   <stop id="stop55" offset="1" stop-color="#176f00"/>
+  </linearGradient>
+  <linearGradient id="linearGradient48">
+   <stop id="stop49" offset="0" stop-opacity="0.7294" stop-color="#000000"/>
+   <stop id="stop50" offset="1" stop-opacity="0" stop-color="#000000"/>
+  </linearGradient>
+  <linearGradient id="linearGradient51" x1="0.511041" x2="0.880126" xlink:href="#linearGradient842" y1="0.605269" y2="0.807018"/>
+  <linearGradient id="linearGradient52" x1="0" x2="1" xlink:href="#linearGradient53" y1="0" y2="1"/>
+  <radialGradient cx="0.5" cy="0.5" fx="0.5" fy="0.5" id="radialGradient577" r="0.5" xlink:href="#linearGradient48"/>
+  <radialGradient cx="0.567823" cy="0.631584" fx="0.545741" fy="0.81579" id="radialGradient845" r="0.309724" xlink:href="#linearGradient842"/>
+  <radialGradient cx="0.414449" cy="0.476575" fx="0.334601" fy="0.609375" id="radialGradient846" r="0.452422" xlink:href="#linearGradient842"/>
+  <radialGradient cx="0.747368" cy="0.148334" fx="0.578948" fy="0.265625" id="radialGradient614" r="0.706962" xlink:href="#linearGradient48"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="62" height="65" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <path stroke="#99bf99" d="m18.824932,55.159359c-1.788208,0.381439 -3.836002,-0.412567 -4.293869,-2.520523c-0.337223,-1.935417 -6.87524,-32.067719 -7.026081,-33.006531c-0.504982,-2.580845 0.903034,-3.901407 2.810562,-4.321726c2.630356,-0.597437 24.974522,-5.452806 26.905983,-5.832796c2.14341,-0.477783 4.142189,0.115496 4.718201,2.689602c0.446495,2.067606 6.791626,31.430012 7.184132,33.139568c0.40369,1.833733 -0.985401,3.572128 -2.995308,3.933411c-1.503056,0.287853 -26.303991,5.687927 -27.303623,5.918995l0.000004,0z" id="path629" stroke-width="15.57496" fill-rule="evenodd" fill="#ffffeb"/>
+   <path stroke="#a6bf99" d="m16.036968,52.824238c-1.828417,-0.006073 -3.661505,-1.215923 -3.662373,-3.373028c0.080471,-1.962944 0.074806,-32.796394 0.126289,-33.745852c0.053261,-2.629234 1.709097,-3.621524 3.662371,-3.628159c2.697222,-0.026599 25.562849,-0.037845 27.530966,-0.000003c2.195976,-0.01283 4.023697,0.990453 4.041271,3.628161c-0.001698,2.115267 -0.021427,32.155447 -0.000019,33.909346c0.006042,1.877636 -1.719833,3.282269 -3.760647,3.209534c-1.529934,-0.037121 -26.911966,-0.014057 -27.937862,0l0.000004,0z" id="path583" stroke-width="15.57497" fill-rule="evenodd" fill="#ffffeb"/>
+   <path d="m16.981131,23.726322l0,8.339447l10.347082,0l0,-8.339447l-10.347082,0z" id="path627" fill-rule="evenodd" fill="#3a8b39"/>
+   <path d="m17.135561,33.301254l0,4.015282l10.038223,0l0,-4.015282l-10.038223,0z" id="path626" fill-rule="evenodd" fill="#e1cf80"/>
+   <path d="m31.851463,23.880764l0,13.435772l11.273697,0l0,-13.435772l-11.273697,0z" id="path625" fill-rule="evenodd" fill="#d8d2e1"/>
+   <path d="m16.981121,18.321129l0,3.551987l26.562691,0l0,-3.551987l-26.562691,0z" id="path632" fill-rule="evenodd" fill="#eb7e58"/>
+   <path d="m43.06646,46.06152l0,-5.192993l-26.295933,0l0,5.192993l26.295933,0z" id="path636" fill-rule="evenodd" fill="#80b26b"/>
+   <text stroke="null" fill="#000000" stroke-width="0" stroke-opacity="null" x="76.955016" y="371.953984" id="svg_2" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" transform="matrix(0.175971 0 0 0.175971 -1.49839 -11.7396)">Vente d'assurance</text>
+   <text stroke="#a6bf99" fill="#000000" stroke-width="0" x="83.551691" y="72.068709" id="svg_3" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" transform="matrix(0.214072 0 0 0.214072 -5.18361 -0.947989)">AssassinFil Inc.</text>
+  </g>
+ </g>
+</svg>

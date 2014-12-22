@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<svg width="149" height="162" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>Lemon SVG themeiconlemon_theme_iconmimetypesiconshashcomputerthemeJose HeviaJose HeviaJose Heviaimage/svg+xmlen</metadata>
+ <defs>
+  <linearGradient id="linearGradient842">
+   <stop stop-color="#0c6700" offset="0" id="stop843"/>
+   <stop stop-color="#a7daaf" offset="1" id="stop844"/>
+  </linearGradient>
+  <linearGradient id="linearGradient53">
+   <stop stop-color="#f0ff00" offset="0" id="stop54"/>
+   <stop stop-color="#176f00" offset="1" id="stop55"/>
+  </linearGradient>
+  <linearGradient id="linearGradient48">
+   <stop stop-color="#000000" stop-opacity="0.7294" offset="0" id="stop49"/>
+   <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop50"/>
+  </linearGradient>
+  <linearGradient y2="0.807018" y1="0.605269" xlink:href="#linearGradient842" x2="0.880126" x1="0.511041" id="linearGradient51"/>
+  <linearGradient y2="1" y1="0" xlink:href="#linearGradient53" x2="1" x1="0" id="linearGradient52"/>
+  <radialGradient xlink:href="#linearGradient48" r="0.5" id="radialGradient577" fy="0.5" fx="0.5" cy="0.5" cx="0.5"/>
+  <radialGradient xlink:href="#linearGradient842" r="0.309724" id="radialGradient845" fy="0.81579" fx="0.545741" cy="0.631584" cx="0.567823"/>
+  <radialGradient xlink:href="#linearGradient842" r="0.452422" id="radialGradient846" fy="0.609375" fx="0.334601" cy="0.476575" cx="0.414449"/>
+  <radialGradient xlink:href="#linearGradient48" r="0.706962" id="radialGradient614" fy="0.265625" fx="0.578948" cy="0.148334" cx="0.747368"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="164" width="151" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#99bf99" fill="#ffffeb" fill-rule="evenodd" stroke-width="15.57496" id="path629" d="m46.065666,148.696091c-5.398415,1.151535 -11.580502,-1.245499 -12.962757,-7.609207c-1.018044,-5.842834 -20.755657,-96.809246 -21.211034,-99.643425c-1.524495,-7.791306 2.726163,-11.777962 8.484801,-13.046864c7.940783,-1.803593 75.395601,-16.461479 81.226488,-17.608629c6.470741,-1.442376 12.504852,0.348674 14.243767,8.119646c1.347939,6.241894 20.503242,94.884068 21.688194,100.045063c1.218689,5.535851 -2.974838,10.783882 -9.042542,11.874565c-4.537567,0.869003 -79.409134,17.17128 -82.426918,17.868851z"/>
+  <path stroke="#a6bf99" fill="#ffffeb" fill-rule="evenodd" stroke-width="15.57497" id="path583" d="m37.649086,141.646591c-5.519802,-0.018326 -11.053719,-3.670746 -11.056339,-10.182831c0.242937,-5.925934 0.225838,-99.009052 0.381254,-101.87536c0.160791,-7.937399 5.159597,-10.933025 11.056337,-10.953053c8.142639,-0.080303 77.171696,-0.114248 83.113239,-0.000011c6.629433,-0.038727 12.147133,2.990078 12.200188,10.953064c-0.005112,6.385775 -0.064667,97.074091 -0.000046,102.368937c0.018234,5.668396 -5.192001,9.908844 -11.353012,9.689255c-4.618729,-0.112061 -81.244549,-0.042435 -84.341621,0z"/>
+  <path fill="#3a8b39" fill-rule="evenodd" id="path627" d="m40.49942,53.802891l0,25.175953l31.236809,0l0,-25.175953l-31.236809,0z"/>
+  <path fill="#e1cf80" fill-rule="evenodd" id="path626" d="m40.965626,82.708649l0,12.121742l30.304401,0l0,-12.121742l-30.304401,0z"/>
+  <path fill="#d8d2e1" fill-rule="evenodd" id="path625" d="m85.391472,54.269127l0,40.561264l34.034164,0l0,-40.561264l-34.034164,0z"/>
+  <path fill="#eb7e58" fill-rule="evenodd" id="path632" d="m40.499386,37.485153l0,10.723087l80.190113,0l0,-10.723087l-80.190113,0z"/>
+  <path fill="#80b26b" fill-rule="evenodd" id="path636" d="m119.248428,121.230629l0,-15.677139l-79.384796,0l0,15.677139l79.384796,0z"/>
+  <text transform="matrix(0.531239 0 0 0.531239 -15.2884 -53.1104)" stroke="null" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2" y="371.662594" x="76.955016" stroke-opacity="null" stroke-width="0" fill="#000000">Vente d'assurance</text>
+  <text transform="matrix(0.646262 0 0 0.646262 -36.5795 -20.5316)" stroke="#a6bf99" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="71.829181" x="99.28182" stroke-width="0" fill="#000000">AssassinFil Inc.</text>
+ </g>
+</svg>

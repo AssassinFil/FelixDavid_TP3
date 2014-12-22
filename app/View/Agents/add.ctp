@@ -19,5 +19,11 @@
 	<ul>
 
 		<li><?php echo $this->Html->link(__('List Agents'), array('action' => 'index')); ?></li>
+
+		<li><?php echo $this->Html->link(__('List Clients'), array('controller' => 'clients', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Clients'), array('controller' => 'clients', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+<?php
+	$this->Js->get('#AgentCategoryId')->event('click', $this->Js->request(array('controller'=>'subcategories','action'=>'getByCategory'), array('update'=>'#AgentCategoryId','async' => true,'method' => 'post','dataExpression'=>true,'data'=> $this->Js->serializeForm(array('isForm' => true,'inline' => true)))));
+?>
