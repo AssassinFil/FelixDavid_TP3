@@ -1,0 +1,891 @@
+2014-11-03 14:08:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => 'Install',
+)
+Request URL: /Travail%20Session/install/img/installation-bg.png
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 14:30:00 Error: [NotFoundException] Invalid agent
+Request URL: /Travail%20Session/agents/delete/0
+Stack Trace:
+#0 [internal function]: AgentsController->delete('0')
+#1 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AgentsController), Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AgentsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-03 14:41:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-11-03 14:41:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/policies/add
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 14:44:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Policy.agents_id' in 'on clause'
+Request URL: /Travail%20Session/policies
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Policy`...', Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Policy`...', Array, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Policy`...', false)
+#4 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Policy), Array)
+#5 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#6 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Component\PaginatorComponent.php(198): Model->find('all', Array)
+#7 E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(25): PaginatorComponent->paginate()
+#8 [internal function]: PoliciesController->index()
+#9 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#10 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-03 14:47:26 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-11-03 14:47:26 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/policies/add
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 14:48:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-11-03 14:48:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/policies/add
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 14:50:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-11-03 14:50:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/policies/add
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 14:50:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-11-03 14:50:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/policies/add
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 14:51:57 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-11-03 14:51:57 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/policies/add
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 14:52:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ClientsPolicy.policy_id' in 'on clause'
+Request URL: /Travail%20Session/policies/view/1
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Client`...', Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1251): DboSource->fetchAll('SELECT `Client`...', false)
+#4 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Policy), Object(Client), 'hasAndBelongsTo...', 'Client', Array, Array, true, Array, 0, Array)
+#5 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Policy), Array)
+#6 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#7 E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(40): Model->find('first', Array)
+#8 [internal function]: PoliciesController->view('1')
+#9 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#10 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-03 14:52:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ClientsPolicy.policy_id' in 'on clause'
+Request URL: /Travail%20Session/policies/edit/1
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Client`...', Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1251): DboSource->fetchAll('SELECT `Client`...', false)
+#4 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Policy), Object(Client), 'hasAndBelongsTo...', 'Client', Array, Array, true, Array, 0, Array)
+#5 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Policy), Array)
+#6 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#7 E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(84): Model->find('first', Array)
+#8 [internal function]: PoliciesController->edit('1')
+#9 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#10 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-03 14:53:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ClientsPolicy.policy_id' in 'field list'
+Request URL: /Travail%20Session/policies/delete/1
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Clients...', Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Clients...', Array, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Clients...', false)
+#4 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(AppModel), Array)
+#5 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#6 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2533): Model->find('all', Array)
+#7 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2434): Model->_deleteLinks('1')
+#8 E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(105): Model->delete()
+#9 [internal function]: PoliciesController->delete('1')
+#10 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#11 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#13 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-03 14:53:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ClientsPolicy.policy_id' in 'field list'
+Request URL: /Travail%20Session/policies/delete/1
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Clients...', Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Clients...', Array, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Clients...', false)
+#4 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(AppModel), Array)
+#5 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#6 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2533): Model->find('all', Array)
+#7 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2434): Model->_deleteLinks('1')
+#8 E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(105): Model->delete()
+#9 [internal function]: PoliciesController->delete('1')
+#10 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#11 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#13 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-03 14:56:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ClientsPolicy.policy_id' in 'on clause'
+Request URL: /Travail%20Session/policies/edit/1
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Client`...', Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1251): DboSource->fetchAll('SELECT `Client`...', false)
+#4 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Policy), Object(Client), 'hasAndBelongsTo...', 'Client', Array, Array, true, Array, 0, Array)
+#5 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Policy), Array)
+#6 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#7 E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(84): Model->find('first', Array)
+#8 [internal function]: PoliciesController->edit('1')
+#9 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#10 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-03 15:27:19 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-11-03 15:27:19 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/fra/policies/add
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 15:29:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-11-03 15:29:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/policies/add
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\\UniServer\\Un...', 58, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 15:30:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ClientsPolicy.policy_id' in 'on clause'
+Request URL: /Travail%20Session/eng/policies/edit/1
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Client`...', Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1251): DboSource->fetchAll('SELECT `Client`...', false)
+#4 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Policy), Object(Client), 'hasAndBelongsTo...', 'Client', Array, Array, true, Array, 0, Array)
+#5 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Policy), Array)
+#6 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#7 E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(84): Model->find('first', Array)
+#8 [internal function]: PoliciesController->edit('1')
+#9 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#10 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-03 15:41:18 Error: [MissingControllerException] Controller class EngController could not be found.
+Exception Attributes: array (
+  'class' => 'EngController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/eng/
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 15:41:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ClientsPolicy.policy_id' in 'on clause'
+Request URL: /Travail%20Session/eng/policies/edit/1
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Client`...', Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1251): DboSource->fetchAll('SELECT `Client`...', false)
+#4 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Policy), Object(Client), 'hasAndBelongsTo...', 'Client', Array, Array, true, Array, 0, Array)
+#5 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Policy), Array)
+#6 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#7 E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(84): Model->find('first', Array)
+#8 [internal function]: PoliciesController->edit('1')
+#9 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#10 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-03 15:41:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ClientsPolicy.policy_id' in 'on clause'
+Request URL: /Travail%20Session/deu/policies/edit/1
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Client`...', Array)
+#2 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1251): DboSource->fetchAll('SELECT `Client`...', false)
+#4 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Policy), Object(Client), 'hasAndBelongsTo...', 'Client', Array, Array, true, Array, 0, Array)
+#5 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Policy), Array)
+#6 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#7 E:\UniServer\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(84): Model->find('first', Array)
+#8 [internal function]: PoliciesController->edit('1')
+#9 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#10 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 E:\UniServer\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-18 13:19:46 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 E:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-19 04:11:25 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 I:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-19 04:11:51 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 I:\UniServer\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 02:56:43 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 04:36:18 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 05:02:30 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 05:08:11 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 05:11:05 Error: [MissingDatasourceException] Datasource class tp2-db_2014-11-03 could not be found. 
+Exception Attributes: array (
+  'class' => 'tp2-db_2014-11-03',
+  'plugin' => false,
+)
+Request URL: /Travail%20Session/
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\ConnectionManager.php(96): ConnectionManager::loadDataSource('default')
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AppController.php(173): ConnectionManager::getDataSource('default')
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AppController.php(87): AppController->dbIsConnected()
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\UsersController.php(4): AppController->beforeFilter()
+#4 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#8 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-22 05:11:09 Error: [MissingDatasourceException] Datasource class tp2-db_2014-11-03 could not be found. 
+Exception Attributes: array (
+  'class' => 'tp2-db_2014-11-03',
+  'plugin' => false,
+)
+Request URL: /Travail%20Session/
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\ConnectionManager.php(96): ConnectionManager::loadDataSource('default')
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AppController.php(173): ConnectionManager::getDataSource('default')
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AppController.php(87): AppController->dbIsConnected()
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\UsersController.php(4): AppController->beforeFilter()
+#4 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#8 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-22 05:13:15 Error: [MissingDatasourceException] Datasource class tp2-db_2014-11-03 could not be found. 
+Exception Attributes: array (
+  'class' => 'tp2-db_2014-11-03',
+  'plugin' => false,
+)
+Request URL: /Travail%20Session/
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\ConnectionManager.php(96): ConnectionManager::loadDataSource('default')
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AppController.php(173): ConnectionManager::getDataSource('default')
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AppController.php(87): AppController->dbIsConnected()
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\UsersController.php(4): AppController->beforeFilter()
+#4 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#8 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-22 05:14:31 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 05:15:26 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 05:15:30 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 05:15:32 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 05:15:33 Error: [MissingDatasourceException] Datasource class tp2-db_2014-11-03 could not be found. 
+Exception Attributes: array (
+  'class' => 'tp2-db_2014-11-03',
+  'plugin' => false,
+)
+Request URL: /Travail%20Session/
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\ConnectionManager.php(96): ConnectionManager::loadDataSource('default')
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AppController.php(173): ConnectionManager::getDataSource('default')
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AppController.php(87): AppController->dbIsConnected()
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\UsersController.php(4): AppController->beforeFilter()
+#4 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#8 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-22 05:16:26 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:07:51 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:09:22 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:09:27 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/login
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:09:33 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:09:38 Error: [MissingControllerException] Controller class AgentController could not be found.
+Exception Attributes: array (
+  'class' => 'AgentController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/agent
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:09:54 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:11:47 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:13:48 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:24:37 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:42:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 89]
+2014-12-22 07:42:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/edit/1
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 89, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 89, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 07:42:19 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 89]
+2014-12-22 07:42:19 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/edit/1
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 89, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 89, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 07:54:04 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/install
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 07:54:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 61]
+2014-12-22 07:54:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 07:56:28 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 61]
+2014-12-22 07:56:28 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 07:59:33 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 61]
+2014-12-22 07:59:33 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 07:59:39 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 90]
+2014-12-22 07:59:39 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/edit/1
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 90, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 90, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 07:59:44 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 61]
+2014-12-22 07:59:44 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:03:40 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 61]
+2014-12-22 08:03:40 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:03:42 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 90]
+2014-12-22 08:03:42 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/edit/1
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 90, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 90, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:03:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 61]
+2014-12-22 08:03:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:05:41 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 61]
+2014-12-22 08:05:41 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 61, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:05:44 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\AgentsController.php, line 90]
+2014-12-22 08:05:44 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/agents/edit/1
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 90, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 90, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:06:00 Error: Fatal Error (4): syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING), expecting '(' in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\View\Agents\add.ctp, line 28]
+2014-12-22 08:06:00 Error: [FatalErrorException] syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING), expecting '('
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:07:27 Error: Fatal Error (4): syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING), expecting '(' in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\View\Agents\add.ctp, line 28]
+2014-12-22 08:07:27 Error: [FatalErrorException] syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING), expecting '('
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:07:30 Error: Fatal Error (4): syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING), expecting '(' in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\View\Agents\add.ctp, line 28]
+2014-12-22 08:07:30 Error: [FatalErrorException] syntax error, unexpected ''controller'' (T_CONSTANT_ENCAPSED_STRING), expecting '('
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:08:38 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\View\Agents\add.ctp, line 28]
+2014-12-22 08:08:38 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:10:25 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\View\Agents\add.ctp, line 28]
+2014-12-22 08:10:25 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:10:29 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\View\Agents\add.ctp, line 28]
+2014-12-22 08:10:29 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Travail%20Session/eng/agents/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Assass...', 28, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 08:36:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/img/GW.svg
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 08:36:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/img/GW.svg
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 08:42:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Travail%20Session/img/GW.svg
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 09:09:56 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-12-22 09:09:56 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/policies/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 58, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 58, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 09:10:01 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: ClientsPolicy.policy_id
+Request URL: /Travail%20Session/eng/policies/edit/1
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Client"...', Array)
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Client"...', Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Client"...', Array, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1251): DboSource->fetchAll('SELECT "Client"...', false)
+#4 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Policy), Object(Client), 'hasAndBelongsTo...', 'Client', Array, Array, true, Array, 0, Array)
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Policy), Array)
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(84): Model->find('first', Array)
+#8 [internal function]: PoliciesController->edit('1')
+#9 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#10 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-22 09:10:20 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: ClientsPolicy.policy_id
+Request URL: /Travail%20Session/eng/clients/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Clients...', Array)
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Clients...', Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Clients...', Array, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT "Clients...', false)
+#4 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(AppModel), Array)
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(1886): Model->find('all', Array)
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(1774): Model->_saveMulti(Array, '2', Object(Sqlite))
+#8 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\ClientsController.php(51): Model->save(Array)
+#9 [internal function]: ClientsController->add()
+#10 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#11 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 09:12:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: ClientsPolicy.policy_id
+Request URL: /Travail%20Session/clients/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Clients...', Array)
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Clients...', Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Clients...', Array, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT "Clients...', false)
+#4 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(AppModel), Array)
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(1886): Model->find('all', Array)
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(1774): Model->_saveMulti(Array, '3', Object(Sqlite))
+#8 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\ClientsController.php(51): Model->save(Array)
+#9 [internal function]: ClientsController->add()
+#10 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#11 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 09:13:20 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: ClientsPolicy.client_id
+Request URL: /Travail%20Session/eng/clients/edit/3
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Policy"...', Array)
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Policy"...', Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Policy"...', Array, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1251): DboSource->fetchAll('SELECT "Policy"...', false)
+#4 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Client), Object(Policy), 'hasAndBelongsTo...', 'Policy', Array, Array, true, Array, 0, Array)
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Client), Array)
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\ClientsController.php(82): Model->find('first', Array)
+#8 [internal function]: ClientsController->edit('3')
+#9 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#10 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-22 09:13:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-12-22 09:13:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/policies/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 58, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 58, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 09:40:06 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: ClientsPolicy.policy_id
+Request URL: /Travail%20Session/eng/clients/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Clients...', Array)
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Clients...', Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Clients...', Array, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT "Clients...', false)
+#4 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(AppModel), Array)
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(1886): Model->find('all', Array)
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(1774): Model->_saveMulti(Array, '4', Object(Sqlite))
+#8 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\ClientsController.php(51): Model->save(Array)
+#9 [internal function]: ClientsController->add()
+#10 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#11 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 09:40:11 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: ClientsPolicy.client_id
+Request URL: /Travail%20Session/eng/clients/edit/2
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Policy"...', Array)
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Policy"...', Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Policy"...', Array, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1251): DboSource->fetchAll('SELECT "Policy"...', false)
+#4 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Client), Object(Policy), 'hasAndBelongsTo...', 'Policy', Array, Array, true, Array, 0, Array)
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Client), Array)
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\ClientsController.php(82): Model->find('first', Array)
+#8 [internal function]: ClientsController->edit('2')
+#9 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#10 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-22 09:40:22 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php, line 58]
+2014-12-22 09:40:22 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Travail%20Session/eng/policies/add
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Assass...', 58, Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Assass...', 58, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 09:40:25 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: ClientsPolicy.policy_id
+Request URL: /Travail%20Session/eng/policies/edit/1
+Stack Trace:
+#0 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Client"...', Array)
+#1 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Client"...', Array)
+#2 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Client"...', Array, Array)
+#3 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1251): DboSource->fetchAll('SELECT "Client"...', false)
+#4 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Policy), Object(Client), 'hasAndBelongsTo...', 'Client', Array, Array, true, Array, 0, Array)
+#5 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Policy), Array)
+#6 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#7 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\Controller\PoliciesController.php(84): Model->find('first', Array)
+#8 [internal function]: PoliciesController->edit('1')
+#9 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PoliciesController), Array)
+#10 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PoliciesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\AssassinFil\Desktop\UniServerZ\www\Travail Session\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
