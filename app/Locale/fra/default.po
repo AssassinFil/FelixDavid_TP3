@@ -1,0 +1,819 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-11-03 15:02+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AgentsController.php:37;69;94
+msgid "Invalid agent"
+msgstr ""
+
+#: Controller/AgentsController.php:52;73
+msgid "The agent has been saved."
+msgstr ""
+
+#: Controller/AgentsController.php:55;76
+msgid "The agent could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AgentsController.php:98
+msgid "The agent has been deleted."
+msgstr ""
+
+#: Controller/AgentsController.php:100
+msgid "The agent could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ClientsController.php:37;71;98
+msgid "Invalid client"
+msgstr ""
+
+#: Controller/ClientsController.php:52;75
+msgid "The client has been saved."
+msgstr ""
+
+#: Controller/ClientsController.php:55;78
+msgid "The client could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ClientsController.php:102
+msgid "The client has been deleted."
+msgstr ""
+
+#: Controller/ClientsController.php:104
+msgid "The client could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PoliciesController.php:37;73;102
+msgid "Invalid policy"
+msgstr ""
+
+#: Controller/PoliciesController.php:52;77
+msgid "The policy has been saved."
+msgstr ""
+
+#: Controller/PoliciesController.php:55;80
+msgid "The policy could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PoliciesController.php:106
+msgid "The policy has been deleted."
+msgstr ""
+
+#: Controller/PoliciesController.php:108
+msgid "The policy could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:42
+#: Model/User.php:70
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/UsersController.php:66;102;138
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:81;117
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:120
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:145
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:149
+msgid "User was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:176
+msgid "Invalid action"
+msgstr ""
+
+#: Controller/UsersController.php:219
+msgid "Remember password - "
+msgstr ""
+
+#: Controller/UsersController.php:239
+msgid "Link invalid"
+msgstr ""
+
+#: Plugin/I18n/Controller/TranslationsController.php:146
+msgid "The translation has been saved"
+msgstr ""
+
+#: Plugin/I18n/Controller/TranslationsController.php:167;190
+msgid "Translation saved"
+msgstr ""
+
+#: Plugin/I18n/Controller/TranslationsController.php:210
+msgid "Translation deleted"
+msgstr ""
+
+#: Plugin/I18n/Model/Translation.php:112
+msgid "Could not save the translation, please check your inputs."
+msgstr ""
+
+#: Plugin/I18n/Model/Translation.php:134;171;215;237
+msgid "Invalid Translation"
+msgstr ""
+
+#: Plugin/I18n/Model/Translation.php:255
+msgid "You need to confirm to delete this Translation"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_add.ctp:4
+msgid "Admin Add Translation"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_add.ctp:17
+#: Plugin/I18n/View/Translations/admin_edit.ctp:19
+#: Plugin/I18n/View/Translations/admin_edit_multi.ctp:26
+#: Plugin/I18n/View/Translations/admin_view.ctp:40
+msgid "List Translations"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:1
+msgid "Delete Translation \"%s\"?"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:3
+msgid "Be aware that your Translation and all associated data will be deleted if you confirm!"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:11
+msgid "Confirm"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:13
+msgid "You have to confirm."
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:14
+msgid "Continue"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_edit.ctp:4
+#: Plugin/I18n/View/Translations/admin_edit_multi.ctp:4
+msgid "Admin Edit Translation"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_edit.ctp:18
+#: Plugin/I18n/View/Translations/admin_index.ctp:70
+#: View/Agents/edit.ctp:20
+#: View/Agents/index.ctp:24
+#: View/Clients/edit.ctp:21
+#: View/Clients/index.ctp:24
+#: View/Clients/view.ctp:69
+#: View/Policies/edit.ctp:20
+#: View/Policies/index.ctp:24
+#: View/Policies/view.ctp:68
+#: View/Users/index.ctp:33;64
+msgid "Delete"
+msgstr "Supprimer"
+
+#: Plugin/I18n/View/Translations/admin_edit_multi.ctp:22
+#: Plugin/Install/View/Install/database.ctp:24
+#: View/Agents/add.ctp:13
+#: View/Agents/edit.ctp:14
+#: View/Clients/add.ctp:14
+#: View/Clients/edit.ctp:15
+#: View/Elements/form_users.ctp:20
+#: View/Policies/add.ctp:13
+#: View/Policies/edit.ctp:14
+#: View/Users/_form.ctp:29
+msgid "Submit"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:2
+msgid "Translations"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:6
+#: View/Agents/index.ctp:32
+#: View/Clients/index.ctp:32
+#: View/Policies/index.ctp:32
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:17
+msgid "Locale Name"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:20
+msgid "Model Name"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:23
+#: Plugin/I18n/View/Translations/admin_view.ctp:24
+msgid "Field"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:26
+#: Plugin/I18n/View/Translations/admin_view.ctp:29
+msgid "Content"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:28
+msgid "Search"
+msgstr "Rechercher"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:40
+#: View/Agents/add.ctp:16
+#: View/Agents/edit.ctp:17
+#: View/Agents/index.ctp:11;44
+#: View/Agents/view.ctp:37
+#: View/Clients/add.ctp:17
+#: View/Clients/edit.ctp:18
+#: View/Clients/index.ctp:11;44
+#: View/Clients/view.ctp:37;57
+#: View/Policies/add.ctp:16
+#: View/Policies/edit.ctp:17
+#: View/Policies/index.ctp:10;44
+#: View/Policies/view.ctp:32;55
+msgid "Actions"
+msgstr "Actions"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:67
+#: View/Agents/index.ctp:22
+#: View/Clients/index.ctp:22
+#: View/Clients/view.ctp:67
+#: View/Policies/index.ctp:22
+#: View/Policies/view.ctp:66
+#: View/Users/index.ctp:30
+msgid "View"
+msgstr "Vue"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:68
+#: View/Agents/index.ctp:23
+#: View/Clients/index.ctp:23
+#: View/Clients/view.ctp:68
+#: View/Policies/index.ctp:23
+#: View/Policies/view.ctp:67
+#: View/Users/index.ctp:31
+msgid "Edit"
+msgstr "Modifie"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:69
+msgid "Edit All locales for this entry"
+msgstr "Modifie toutes les variables locales pour cette entree"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:80
+#: Plugin/I18n/View/Translations/admin_view.ctp:41
+msgid "New Translation"
+msgstr "Nouvelle Traduction"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:2
+msgid "Translation"
+msgstr "Traduction"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:4
+#: View/Agents/view.ctp:4
+#: View/Clients/view.ctp:4;52
+#: View/Policies/view.ctp:4;49
+msgid "Id"
+msgstr "Id"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:9
+msgid "Locale"
+msgstr "Locale"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:14
+msgid "Model"
+msgstr "Modele"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:19
+msgid "Foreign Key"
+msgstr "Clef etrangere"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:38
+msgid "Edit Translation"
+msgstr "Modifier la traduction"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:39
+msgid "Delete Translation"
+msgstr "Supprimer la traduction"
+
+#: Plugin/Install/Controller/InstallController.php:46
+msgid "Already Installed"
+msgstr "Deja installe"
+
+#: Plugin/Install/Controller/InstallController.php:61
+msgid "Installation: Welcome"
+msgstr "Installation: Bienvenue"
+
+#: Plugin/Install/Controller/InstallController.php:75
+msgid "Step 1: Database"
+msgstr "Etape 1: Base de donnee"
+
+#: Plugin/Install/Controller/InstallController.php:87;162
+msgid "File database.php created successfully."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:102
+msgid "Step 2: Build database"
+msgstr "Etape 2: Construire la base de donnee"
+
+#: Plugin/Install/Controller/InstallController.php:109
+msgid "Warning: Database \"%s\" is not empty."
+msgstr "Attention: Base de donne \"%s\" n'est pas vide."
+
+#: Plugin/Install/Controller/InstallController.php:115
+msgid "Structure of the database successfully created."
+msgstr "La structure de la base de donnee c'est bien cree."
+
+#: Plugin/Install/Controller/InstallController.php:154
+msgid "Step 4: Config"
+msgstr "Etape 4: Configuration"
+
+#: Plugin/Install/Controller/InstallController.php:158
+msgid "File config.php created successfully."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:177
+msgid "Installation successful"
+msgstr "Installation reussi"
+
+#: Plugin/Install/Controller/InstallController.php:211
+msgid "Could not write database.php file."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:220
+msgid "Could not connect to database: "
+msgstr "N'a pas pu ce connecter a la base de donnee"
+
+#: Plugin/Install/Controller/InstallController.php:225
+msgid "Could not connect to database."
+msgstr ""
+
+#: Plugin/Install/View/Install/adminuser.ctp:7
+msgid "Step 3: Create Admin User"
+msgstr ""
+
+#: Plugin/Install/View/Install/adminuser.ctp:16
+#: Plugin/Install/View/Install/config.ctp:16
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: Plugin/Install/View/Install/config.ctp:3
+msgid "Step 4: Create Config"
+msgstr ""
+
+#: Plugin/Install/View/Install/config.ctp:9
+msgid "Digite as palavras separadas por virgula ex: CakeStrap,CakePhp"
+msgstr ""
+
+#: Plugin/Install/View/Install/data.ctp:3
+msgid "Create tables"
+msgstr ""
+
+#: Plugin/Install/View/Install/data.ctp:8
+#: Plugin/Install/View/Install/finish.ctp:13
+msgid "Build database"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:4
+msgid "The user %s has been created with administrative rights.<br>"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:6
+msgid "Visit their website: %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:11
+msgid "Check for restrictions"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:12
+msgid "Create Database file"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:14
+msgid "Create the initial user system"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:15
+msgid "Create the configuration file"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:16
+msgid "Visit their website"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:8
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:11
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:16
+msgid "Your config directory is writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:19
+msgid "Your config directory is NOT writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:27
+msgid "PHP version %s %s %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:30
+msgid "PHP version %s < %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:38
+msgid "CakePhp version %s %s %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:41
+msgid "CakePHP version %s < %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:48
+msgid "Install"
+msgstr "Installer"
+
+#: Plugin/Install/View/Install/index.ctp:50
+msgid "Installation cannot continue as minimum requirements are not met."
+msgstr ""
+
+#: Plugin/Install/View/Layouts/default.ctp:6
+msgid "CakeStrap"
+msgstr ""
+
+#: View/Agents/add.ctp:4
+msgid "Add Agent"
+msgstr "Ajouter un agent"
+
+#: View/Agents/add.ctp:19
+#: View/Agents/edit.ctp:21
+#: View/Agents/view.ctp:41
+#: View/Policies/add.ctp:20
+#: View/Policies/edit.ctp:22
+#: View/Policies/index.ctp:47
+#: View/Policies/view.ctp:38
+msgid "List Agents"
+msgstr ""
+
+#: View/Agents/edit.ctp:4
+#: View/Agents/view.ctp:39
+msgid "Edit Agent"
+msgstr "Modifier un agent"
+
+#: View/Agents/edit.ctp:20
+#: View/Agents/index.ctp:24
+#: View/Agents/view.ctp:40
+#: View/Clients/edit.ctp:21
+#: View/Clients/index.ctp:24
+#: View/Clients/view.ctp:40;69
+#: View/Policies/edit.ctp:20
+#: View/Policies/index.ctp:24
+#: View/Policies/view.ctp:35;68
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Agents/index.ctp:2
+msgid "Agents"
+msgstr "Agents"
+
+#: View/Agents/index.ctp:37
+#: View/Clients/index.ctp:37
+#: View/Policies/index.ctp:37
+msgid "previous"
+msgstr "precedent"
+
+#: View/Agents/index.ctp:39
+#: View/Clients/index.ctp:39
+#: View/Policies/index.ctp:39
+msgid "next"
+msgstr "prochain"
+
+#: View/Agents/index.ctp:46
+#: View/Agents/view.ctp:42
+msgid "New Agent"
+msgstr "Nouvel Agent"
+
+#: View/Agents/view.ctp:2
+msgid "Agent"
+msgstr "Agent"
+
+#: View/Agents/view.ctp:9
+#: View/Clients/view.ctp:14
+#: View/Policies/view.ctp:51
+msgid "Prenom"
+msgstr ""
+
+#: View/Agents/view.ctp:14
+#: View/Clients/view.ctp:9
+#: View/Policies/view.ctp:50
+msgid "Nom"
+msgstr ""
+
+#: View/Agents/view.ctp:19
+msgid "Datenaissance"
+msgstr ""
+
+#: View/Agents/view.ctp:24
+#: View/Elements/form_login.ctp:12
+#: View/Elements/form_users.ctp:8
+#: View/Users/_form.ctp:14
+msgid "Email"
+msgstr ""
+
+#: View/Agents/view.ctp:29
+#: View/Clients/view.ctp:56
+#: View/Policies/view.ctp:24
+msgid "Detailmasque"
+msgstr ""
+
+#: View/Agents/view.ctp:40
+msgid "Delete Agent"
+msgstr "Supprimer Agent"
+
+#: View/Clients/add.ctp:4
+msgid "Add Client"
+msgstr "Ajouter Client"
+
+#: View/Clients/add.ctp:20
+#: View/Clients/edit.ctp:22
+#: View/Clients/view.ctp:41
+#: View/Policies/add.ctp:22
+#: View/Policies/edit.ctp:24
+#: View/Policies/index.ctp:49
+#: View/Policies/view.ctp:40
+msgid "List Clients"
+msgstr "Liste des Clients"
+
+#: View/Clients/add.ctp:21
+#: View/Clients/edit.ctp:23
+#: View/Clients/index.ctp:47
+#: View/Clients/view.ctp:43
+#: View/Policies/add.ctp:19
+#: View/Policies/edit.ctp:21
+#: View/Policies/view.ctp:36
+msgid "List Policies"
+msgstr "Liste des Assurances"
+
+#: View/Clients/add.ctp:22
+#: View/Clients/edit.ctp:24
+#: View/Clients/index.ctp:48
+#: View/Clients/view.ctp:44;78
+#: View/Policies/index.ctp:46
+#: View/Policies/view.ctp:37
+msgid "New Policy"
+msgstr "Nouvelle Assurance"
+
+#: View/Clients/edit.ctp:4
+#: View/Clients/view.ctp:39
+msgid "Edit Client"
+msgstr "Nouveau Client"
+
+#: View/Clients/index.ctp:2
+#: View/Policies/view.ctp:9
+msgid "Clients"
+msgstr "Clients"
+
+#: View/Clients/index.ctp:46
+#: View/Clients/view.ctp:42
+#: View/Policies/view.ctp:77
+msgid "New Client"
+msgstr "Nouveau Client"
+
+#: View/Clients/view.ctp:2
+msgid "Client"
+msgstr ""
+
+#: View/Clients/view.ctp:19
+#: View/Policies/view.ctp:52
+msgid "Adress"
+msgstr ""
+
+#: View/Clients/view.ctp:24
+#: View/Policies/view.ctp:53
+msgid "Detail"
+msgstr ""
+
+#: View/Clients/view.ctp:29
+#: View/Policies/view.ctp:54
+msgid "Policies Id"
+msgstr ""
+
+#: View/Clients/view.ctp:40
+msgid "Delete Client"
+msgstr ""
+
+#: View/Clients/view.ctp:48
+msgid "Related Policies"
+msgstr ""
+
+#: View/Clients/view.ctp:53
+msgid "Clients Id"
+msgstr ""
+
+#: View/Clients/view.ctp:54
+#: View/Policies/view.ctp:14
+msgid "Details"
+msgstr ""
+
+#: View/Clients/view.ctp:55
+#: View/Policies/view.ctp:19
+msgid "Dateofpurchase"
+msgstr ""
+
+#: View/Elements/form_login.ctp:13
+#: View/Elements/form_users.ctp:12
+#: View/Users/_form.ctp:18
+msgid "Password"
+msgstr ""
+
+#: View/Elements/form_login.ctp:15
+#: View/Users/remember_password.ctp:7
+msgid "Forgot your password?"
+msgstr ""
+
+#: View/Elements/form_login.ctp:19
+msgid "Remember me"
+msgstr ""
+
+#: View/Elements/form_login.ctp:22
+msgid "Login"
+msgstr ""
+
+#: View/Elements/form_users.ctp:4
+#: View/Users/_form.ctp:10
+#: View/Users/index.ctp:18
+msgid "Username"
+msgstr ""
+
+#: View/Elements/form_users.ctp:16
+#: View/Users/_form.ctp:24
+#: View/Users/index.ctp:19
+msgid "Role"
+msgstr ""
+
+#: View/Elements/form_users.ctp:17
+#: View/Users/_form.ctp:25
+msgid "Admin"
+msgstr ""
+
+#: View/Elements/form_users.ctp:17
+#: View/Users/_form.ctp:25
+msgid "Author"
+msgstr ""
+
+#: View/Emails/html/remember_password.ctp:3
+msgid "Register new password"
+msgstr ""
+
+#: View/Policies/add.ctp:4
+msgid "Add Policy"
+msgstr ""
+
+#: View/Policies/add.ctp:21
+#: View/Policies/edit.ctp:23
+#: View/Policies/index.ctp:48
+#: View/Policies/view.ctp:39
+msgid "New Agents"
+msgstr ""
+
+#: View/Policies/add.ctp:23
+#: View/Policies/edit.ctp:25
+#: View/Policies/index.ctp:50
+#: View/Policies/view.ctp:41
+msgid "New Clients"
+msgstr ""
+
+#: View/Policies/edit.ctp:4
+#: View/Policies/view.ctp:34
+msgid "Edit Policy"
+msgstr ""
+
+#: View/Policies/index.ctp:2
+msgid "Policies"
+msgstr ""
+
+#: View/Policies/view.ctp:2
+msgid "Policy"
+msgstr ""
+
+#: View/Policies/view.ctp:35
+msgid "Delete Policy"
+msgstr ""
+
+#: View/Policies/view.ctp:45
+msgid "Related Clients"
+msgstr ""
+
+#: View/Users/change_password.ctp:3
+msgid "Change password"
+msgstr ""
+
+#: View/Users/change_password.ctp:11
+msgid "New password"
+msgstr ""
+
+#: View/Users/change_password.ctp:12
+msgid "Confirm new password"
+msgstr ""
+
+#: View/Users/change_password.ctp:13
+msgid "Change my password"
+msgstr ""
+
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/index.ctp:4
+#: View/Users/register.ctp:2
+msgid "Add User"
+msgstr ""
+
+#: View/Users/index.ctp:57
+msgid "Remove user"
+msgstr ""
+
+#: View/Users/index.ctp:60
+msgid "Are you sure you want to delete the user "
+msgstr ""
+
+#: View/Users/index.ctp:63
+msgid "Cancel"
+msgstr ""
+
+#: View/Users/remember_password.ctp:9
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\ttempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: View/Users/remember_password.ctp:12
+msgid "E-mail"
+msgstr ""
+
+#: View/Users/remember_password.ctp:13
+msgid "Email address"
+msgstr ""
+
+#: View/Users/remember_password.ctp:15
+msgid "Next step"
+msgstr ""
+
+#: Model/Agent.php:validation for field prenom;validation for field nom
+#: Model/Client.php:validation for field nom;validation for field prenom;validation for field adress;validation for field detail
+#: Model/Policy.php:validation for field clients_id;validation for field details
+msgid "notempty"
+msgstr ""
+
+#: Model/Agent.php:validation for field datenaissance
+#: Model/Policy.php:validation for field dateofpurchase
+msgid "date"
+msgstr ""
+
+#: Model/Agent.php:validation for field email
+msgid "email"
+msgstr ""
+
+#: Model/Agent.php:validation for field detailmasque
+#: Model/Policy.php:validation for field detailmasque
+msgid "boolean"
+msgstr ""
+
+#: Model/Client.php:validation for field policies_id
+msgid "numeric"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "A username is required."
+msgstr ""
+
+#: Model/User.php:validation for field username;validation for field email
+msgid "This user already exists."
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Invalid email."
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "A password is required"
+msgstr ""
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr ""
+
